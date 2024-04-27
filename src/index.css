@@ -1,0 +1,74 @@
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+
+  margin: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+body.snow {
+  background-image: url("../snow.gif");
+  
+}
+
+body.clouds {
+
+  background-image: url("../clouds.gif");
+}
+body.thunderstorm {
+  background-image: url("../thunderstorm.gif");
+  
+}
+
+body.clear {
+  background-image: url("../clear.gif");
+  
+}
+body.rain {
+  background-image: url("../rain.gif");
+  
+}
+body.mist,
+body.fog {
+  background-image: url("../fog.gif");
+  
+}
+body.haze {
+  background-image: url("../haze.gif");
+  
+}
+
+body.smoke {
+  background-image: url("../smoke.gif");
+  
+}
+
+body.drizzle {
+ 
+  background-image: url("../drizzle.gif");
+}
+
+
+body.default-weather {
+  background-image: url("../weather.gif");
+  
+}
